@@ -24,7 +24,7 @@ public class IfEx04 {
 //			 arrivedTime = 940;
 //		}
 		
-			if(money < 4300 && card == false && ! phone) {
+			if(money < 4300 || card == false && ! phone) {
 			System.out.println("버스를 탄다");
 			arrivedTime = 940;
 			

@@ -22,7 +22,7 @@ public class IfEx03 {
 //			System.out.println("조용히 나온다");
 //		}
 		
-		if(money >= 3500 || card ) { // F == T: F
+		if(money >= 3500 || card ) { // T == T: T
 			System.out.println("김밥을 사먹는다");
 		} else {
 			System.out.println("조용히 나온다");
