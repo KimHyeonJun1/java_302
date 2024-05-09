@@ -25,7 +25,7 @@ public class GugudanFor {
 		int no = s.nextInt();
 		for(int i=1; i<=no; i++){
 			if( i % 3 == 0)
-			System.out.println( i );
+			System.out.print( i + "  ");
 		}
 	
 //		for(int no=1; no<=10; no++) {
