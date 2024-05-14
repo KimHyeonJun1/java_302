@@ -31,15 +31,21 @@ public class ArrayEx01 {
 		
 		//초기화와 함께 배열선언
 // 		int no1 = 1;
-		int num[] = {10, 20, 30, 40, 50, 60 };
-		System.out.println(num);
-		System.out.println(num[4]);
+		int num[][] = {{10, 20, 30, 40, 50 },{1,2,3,4,5,6},{11,22,33,44,55,66}};
+//		System.out.println(num);
+//		System.out.println(num[4]);
 		
-		
+		for(int i=0; i<num.length; i++) {
+			System.out.print((i+1) +"행: ");
+		for(int j =0; j<num[i].length; j++) {
+			System.out.print(num[i][j]+ " ");
+		}
+		System.out.println();
+		}
 		
 //		배열크기: length		
-		System.out.println("no의 길이:" + no.length);
-		System.out.println("num의 길이:" + num.length);
+//		System.out.println("no의 길이:" + no.length);
+//		System.out.println("num의 길이:" + num.length);
 		
 	}
 }
