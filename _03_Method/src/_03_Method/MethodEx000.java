@@ -61,9 +61,9 @@ public class MethodEx000 {
 
 			plusEx(c1000,c500, c100,c50);
 			
-			plusEx(c1000,c500,c100,c50);
+			plusEx(c1000,c500,c100, c50);
 			
-			plusEx(c1000,c500, c100,c50);
+			plusEx(c1000,c500, c100, c50);
 			
 			plusEx( c1000,c500, c100, c50);
 			
@@ -72,6 +72,12 @@ public class MethodEx000 {
 //			if (c1000 > 0)
 //				System.out.printf("1000원 %d장 \n", c1000); // <-이걸 메소드로 호출
 
+			c1000 = change / 1000;
+			change %= 1000;
+			if (c1000 > 0)
+				System.out.printf("1000원 %d장 \n", c1000);
+
+			
 			c500 = change / 500;
 			change %= 500;
 			if (c500 > 0)
@@ -91,24 +97,24 @@ public class MethodEx000 {
 	
 	static void plusEx(int c1000, int c500, int c100, int c50) {
 		int change =0;
-		int result ;
+		int result;
 	
 		if(c1000 > 0) {
 			c1000 = change /1000;
 			result = change %= 1000;
-			result = c1000;
+			
 		}else if(c500 > 0 ) {
 			c500 = change /500;
 			result = change %= 500;
-			result = c500;
+			
 		}else if(c100 > 0) {
 			c100 = change /100;
 			result = change %= 100;
-			result = c100;
+			
 		}else if(c50 > 0) {
 			c50 = change /50;
 			result = change %= 50;
-			result = c50;
+			
 		}
 		
 //		c1000 = change / 1000; 
