@@ -67,8 +67,8 @@ public class VendingMachine {
 			if( c1000 > 0) System.out.printf("1000원 %d장 \n", c1000);
 			
 			
-		change %= 1000;	//change = change % 1000;
 		c500 = change / 500;
+		change %= 1000;	//change = change % 1000;
 		if( c1000 > 0) System.out.printf("500원 %d장 \n", c500);
 		
 		change %= 500;
