@@ -32,7 +32,7 @@ public class MethodEx04 {
 	
 	
 		public static void main(String[] args) {
-		int no = 14;
+		int no = 16;
 		int a = oddEven(no);
 		System.out.println( a==0 ?  no +"이면 3의 배수" : no +"이면 3의 배수가 아님");
 //		if(a ==0) {

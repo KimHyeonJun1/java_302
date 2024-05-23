@@ -4,13 +4,13 @@ public class MethodEx02 {
 	public static void main(String[] args) {
 		//두 정수간의 사칙연산
 		int n1 = 12, n2 =7;
-		add(n1, n2);	
-		int n3 = subtract(n1, n2);
-		int result = multiply(n1, n2);
+		add(n1, n2);	//19
+		int n3 = subtract(n1, n2);    //5
+		int result = multiply(n1, n2);//12x7 = 84
 		System.out.println("곱셈 result:" + result);
 		//곱센 연산 결과값을 나눗셈 연산의 피젯수로 사용해야 한다: 10(피젯수)/2(젯수)
 		//뺄셈 연산 결과값을 나눗셈 연산의 젯수로 사용해야 한다
-		double dRresult = divide(result, n3);
+		double dRresult = divide(result, n3); //84 /5
 		System.out.println("나눗셈 result:" + dRresult);
 		
 	}

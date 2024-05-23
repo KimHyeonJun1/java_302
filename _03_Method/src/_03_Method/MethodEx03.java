@@ -2,6 +2,8 @@ package _03_Method;
 
 public class MethodEx03 {
 	
+	
+	
 	//어떤 수가 짝수인지 홀수인지 판단하여 그 결과를 리턴하는 메소드 선언하기
 	static String oddEven(int no) {
 		String result="";

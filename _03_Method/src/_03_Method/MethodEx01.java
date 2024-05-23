@@ -2,16 +2,16 @@ package _03_Method;
 
 public class MethodEx01 {
 	public static void main(String[] args) {
-//		String test[] = {"홍길동"};
-//		System.out.println(args);
-		// 배열에 담긴 데이터 출력하기
-//		for( String name : args) {
-//			System.out.println(name);
-//		}
-//		
+		String test[] = {"홍길동"};
+		System.out.println(args);
+//		 배열에 담긴 데이터 출력하기
+		for( String name : args) {
+			System.out.println(name);
+		}
+		
 //		System.out.println("*************");
 		printSymbol(20);
-		System.out.println("Hello Java~");
+//		System.out.println("Hello Java~");
 		printSymbol("?", 10);
 //		System.out.println("*************");
 
