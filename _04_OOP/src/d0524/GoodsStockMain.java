@@ -1,4 +1,4 @@
-package d0523;
+package d0524;
 
 public class GoodsStockMain {
 	public static void main(String[] args) {
@@ -33,18 +33,15 @@ public class GoodsStockMain {
 		}
 		
 	}
-	
-	
-	
 	static void info(GoodsStock goods) {
-		System.out.println( goods.goodsName + "\t"+
-							goods.goodsCode + "\t"+
-							goods.stockAmount);
+		System.out.println( goods.getGoodsName() + "\t"+
+							goods.getGoodsCode() + "\t"+
+							goods.getStockAmount());
 	}
 	
 	static void goodInfo(GoodsStock goods) {
-		System.out.println("상품명: " + goods.goodsName);
-		System.out.println("상품코드: " + goods.goodsCode);
-		System.out.println("상품재고수량: " + goods.stockAmount);
+		System.out.println("상품명: " + goods.getGoodsName());
+		System.out.println("상품코드: " + goods.getGoodsCode());
+		System.out.println("상품재고수량: " + goods.getStockAmount());
 	}
 }
