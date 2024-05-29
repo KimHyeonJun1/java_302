@@ -1,9 +1,28 @@
-package account;
+package account2;
 
 public class CheckCardAccount extends Account {
 //	String owner, accountNo;
 //	int balance;
 	String cardNo;
+	
+	
+	CheckCardAccount(){
+		System.out.println("CheckCardAccount생성자");
+	}
+	CheckCardAccount(String owner, String accountNo, String cardNo){
+//		this.owner = owner;
+//		this.accountNo = accountNo;
+		super (owner, accountNo);
+		this.cardNo = cardNo;
+	}
+	CheckCardAccount(String owner, String accountNo, String cardNo, int balance){
+		this(owner, accountNo, cardNo);
+		this.balance = balance;
+	}
+	CheckCardAccount( int balance, String owner, String accountNo, String cardNo){
+		super(owner, accountNo, balance);
+		this.cardNo = cardNo;
+	}
 	
 //	void deposit(int money) {
 //		balance += money;
