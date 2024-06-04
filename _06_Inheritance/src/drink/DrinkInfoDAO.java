@@ -21,7 +21,7 @@ public class DrinkInfoDAO extends DrinkManage implements DrinkDAO {
 		 if(drinks[button -1] == null) {
 			 System.out.println("정보 없음");}
 		 else {
-		System.out.printf("상품명: %s\t 가격: %d\t 수량: %d\t"
+		System.out.printf("상품명: %s\t 가격: %d원\t 수량: %d개\t"
 				, drinks[button -1].name, drinks[button -1].price, drinks[button -1].quantity );
 		 }
 		 
