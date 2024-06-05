@@ -13,5 +13,6 @@ public class ClothMain {
 		System.out.println("의류명: "+ shirt.name);
 		System.out.println("의류소재: " + shirt.material);
 		System.out.println("착용계절: " + shirt.season.getName());
+		System.out.println(shirt.toString());
 	}
 }
