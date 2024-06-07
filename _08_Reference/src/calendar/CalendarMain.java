@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-public class CalendarMain {
+public class CalendarMain extends Object {
 	public static void main(String[] args) {
 		//날짜, 시각과 관련된 클래스: Calendar, GrengorianCalendar
 		Calendar c;

@@ -20,6 +20,9 @@ public class Cloth {
 		return content.toString();
 	}
 	
+	public Cloth() {
+		
+	}
 	
 	Cloth(String code, String name, String material, Season season){
 		this.code =code;
