@@ -43,8 +43,6 @@ public class StudentMain {
 				try {reader.close();}catch(Exception e) {}
 			}
 		}
-		
-		
 
 		
 		
