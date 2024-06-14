@@ -9,10 +9,19 @@ public class PrintThread extends Thread {
 	
 	@Override
 	public void run() {
-		//원주율 출력
-		System.out.println("원주율: " + share.pi);
+		if( ! share.finished ) {
+			try {
+				//notify 가 오기를 기다리자
+				synchronized( share ) {
+					share.wait();
+				}
+				
+			} catch (InterruptedException e) {
+			}
+		}
+		// 원주율 출력
+		System.out.println( "원주율: " + share.pi );
 	}
-	
-	
+
 	
 }
