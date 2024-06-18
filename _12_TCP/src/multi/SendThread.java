@@ -32,7 +32,7 @@ public class SendThread extends Thread {
 		
 		while(true) {
 		String send = reader.readLine();
-		if(send.equals("bye")) break;
+		if(send.toLowerCase().equals("bye")) break;
 		writer.println(send);
 		writer.flush();
 		}

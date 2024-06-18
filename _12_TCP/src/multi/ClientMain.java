@@ -8,10 +8,10 @@ import java.util.Scanner;
 public class ClientMain {
 	public static void main(String[] args) {
 		//대화자명 지정
-		Scanner scan = new Scanner(System.in);
+//		Scanner scan = new Scanner(System.in);
 		System.out.println("대화자명: ");
-		String name = scan.next();
-		scan.close();
+		String name = "김현준";
+//		scan.close();
 		
 		
 		try {
