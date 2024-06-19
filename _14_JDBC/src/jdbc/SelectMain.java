@@ -32,8 +32,7 @@ public class SelectMain {
 				System.out.print(rs.getInt("department_id")+ "\t");
 				System.out.print(rs.getString("job_id")+ "\t");
 				System.out.println(rs.getDate("hire_date"));
-			}
-			
+			}			
 			
 			
 		} catch (Exception e) {
